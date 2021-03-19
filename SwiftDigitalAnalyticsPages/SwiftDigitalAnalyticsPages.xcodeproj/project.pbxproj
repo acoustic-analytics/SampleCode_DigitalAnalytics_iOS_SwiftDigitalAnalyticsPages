@@ -671,7 +671,7 @@
 				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPages/Info.plist;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = IBM.SwiftDigitalAnalyticsPages;
+				PRODUCT_BUNDLE_IDENTIFIER = Aco.SwiftDigitalAnalyticsPages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -688,7 +688,7 @@
 				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPages/Info.plist;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = IBM.SwiftDigitalAnalyticsPages;
+				PRODUCT_BUNDLE_IDENTIFIER = Aco.SwiftDigitalAnalyticsPages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -701,7 +701,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPagesTests/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = IBM.SwiftDigitalAnalyticsPagesTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Aco.SwiftDigitalAnalyticsPagesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -715,7 +715,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPagesTests/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = IBM.SwiftDigitalAnalyticsPagesTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Aco.SwiftDigitalAnalyticsPagesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -728,7 +728,7 @@
 			baseConfigurationReference = AC8031ADC37872AEE309A69A /* Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPagesUITests/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = IBM.SwiftDigitalAnalyticsPagesUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Aco.SwiftDigitalAnalyticsPagesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -742,7 +742,7 @@
 			baseConfigurationReference = A549AD6021FF996D667AC235 /* Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPagesUITests/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = IBM.SwiftDigitalAnalyticsPagesUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Aco.SwiftDigitalAnalyticsPagesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
