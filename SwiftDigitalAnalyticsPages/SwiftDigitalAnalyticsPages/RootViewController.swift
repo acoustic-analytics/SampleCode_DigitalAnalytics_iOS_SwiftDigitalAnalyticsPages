@@ -1,9 +1,12 @@
-/*******************************************************************************
- * Licensed Materials - Property of IBM
- * (C) Copyright IBM Corp. 2016
- * US Government Users Restricted Rights - Use, duplication or disclosure
- * restricted by GSA ADP Schedule Contract with IBM Corp.
- ******************************************************************************/
+//
+// Copyright (C) 2016 Acoustic, L.P. All rights reserved.
+//
+// NOTICE: This file contains material that is confidential and proprietary to
+// Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
+// industrial property rights of Acoustic, L.P. except as may be provided in an agreement with
+// Acoustic, L.P. Any unauthorized copying or distribution of content from this file is
+// prohibited.
+//
 
 import UIKit
 
@@ -25,7 +28,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
         self.pageViewController!.dataSource = self.modelController
 
-        self.addChildViewController(self.pageViewController!)
+        self.addChild(self.pageViewController!)
         self.view.addSubview(self.pageViewController!.view)
 
         // Set the page view controller's bounds using an inset rect so that self's view is visible around the edges of the pages.
@@ -35,7 +38,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         }
         self.pageViewController!.view.frame = pageViewRect
 
-        self.pageViewController!.didMove(toParentViewController: self)
+        self.pageViewController!.didMove(toParent: self)
 
         // Add the page view controller's gesture recognizers to the book view controller's view so that the gestures are started more easily.
         //self.view.gestureRecognizers = self.pageViewController!.gestureRecognizers
@@ -59,7 +62,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
     // MARK: - UIPageViewController delegate methods
 
-    func pageViewController(_ pageViewController: UIPageViewController, spineLocationFor orientation: UIInterfaceOrientation) -> UIPageViewControllerSpineLocation {
+    func pageViewController(_ pageViewController: UIPageViewController, spineLocationFor orientation: UIInterfaceOrientation) -> UIPageViewController.SpineLocation {
         if (orientation == .portrait) || (orientation == .portraitUpsideDown) || (UIDevice.current.userInterfaceIdiom == .phone) {
             // In portrait orientation or on iPhone: Set the spine position to "min" and the page view controller's view controllers array to contain just one view controller. Setting the spine position to 'UIPageViewControllerSpineLocationMid' in landscape orientation sets the doubleSided property to true, so set it to false here.
             let currentViewController = self.pageViewController!.viewControllers![0]
