@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E0C6C891C73DBF8003603EB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0C6C881C73DBF8003603EB /* CoreTelephony.framework */; };
-		2EC4F94ED76A03A5257F68CE /* Pods_SwiftDigitalAnalyticsPages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7047417780C909F38BD0E18E /* Pods_SwiftDigitalAnalyticsPages.framework */; };
+		5BCB14BCF509AFA584CF8E3E /* Pods_SwiftDigitalAnalyticsPages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6160D7126FE494F2F966C01F /* Pods_SwiftDigitalAnalyticsPages.framework */; };
 		6315AB761BE8D20800B38D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315AB751BE8D20800B38D21 /* AppDelegate.swift */; };
 		6315AB781BE8D20800B38D21 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315AB771BE8D20800B38D21 /* RootViewController.swift */; };
 		6315AB7A1BE8D20800B38D21 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315AB791BE8D20800B38D21 /* DataViewController.swift */; };
@@ -20,8 +20,8 @@
 		6315AB9A1BE8D20800B38D21 /* SwiftDigitalAnalyticsPagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315AB991BE8D20800B38D21 /* SwiftDigitalAnalyticsPagesUITests.swift */; };
 		634F8ECF1BE9B09C00B90096 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634F8ECE1BE9B09C00B90096 /* SystemConfiguration.framework */; };
 		634F8ED11BE9B0C500B90096 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 634F8ED01BE9B0C500B90096 /* libz.tbd */; };
-		B6CC5AF1DB288252FE0E222F /* Pods_SwiftDigitalAnalyticsPagesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277D735FE7077233641B6449 /* Pods_SwiftDigitalAnalyticsPagesUITests.framework */; };
-		C14F3A17521BCF4DAFA7BCB4 /* Pods_SwiftDigitalAnalyticsPagesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C74B895CEA4451FFADE79F /* Pods_SwiftDigitalAnalyticsPagesTests.framework */; };
+		8F1AE989221F47D76C73BFD9 /* Pods_SwiftDigitalAnalyticsPagesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F41221B732B72D8F91BC9F /* Pods_SwiftDigitalAnalyticsPagesUITests.framework */; };
+		B64649E44016316F8E9028DF /* Pods_SwiftDigitalAnalyticsPagesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9392EB09F63BCDAD0142EB /* Pods_SwiftDigitalAnalyticsPagesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CF259A0274B1A102D6FDAF6 /* Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftDigitalAnalyticsPagesUITests/Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		1DF43F546853BA89144A1FF0 /* Pods-SwiftDigitalAnalyticsPages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPages.debug.xcconfig"; path = "Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages.debug.xcconfig"; sourceTree = "<group>"; };
 		1E0C6C881C73DBF8003603EB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		277D735FE7077233641B6449 /* Pods_SwiftDigitalAnalyticsPagesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDigitalAnalyticsPagesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50C74B895CEA4451FFADE79F /* Pods_SwiftDigitalAnalyticsPagesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDigitalAnalyticsPagesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BF3722546B22ED36E54088 /* Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftDigitalAnalyticsPagesTests/Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BE192BA30A1DC50BF79D8CC /* Pods-SwiftDigitalAnalyticsPages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPages.debug.xcconfig"; path = "Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages.debug.xcconfig"; sourceTree = "<group>"; };
+		540F596FA37665321BE73511 /* Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftDigitalAnalyticsPagesUITests/Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6160D7126FE494F2F966C01F /* Pods_SwiftDigitalAnalyticsPages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDigitalAnalyticsPages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6315AB721BE8D20800B38D21 /* SwiftDigitalAnalyticsPages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDigitalAnalyticsPages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6315AB751BE8D20800B38D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6315AB771BE8D20800B38D21 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -65,11 +65,11 @@
 		634F8ECC1BE9B08F00B90096 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		634F8ECE1BE9B09C00B90096 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		634F8ED01BE9B0C500B90096 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		7047417780C909F38BD0E18E /* Pods_SwiftDigitalAnalyticsPages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDigitalAnalyticsPages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76ED3335554E1366F65EC8C1 /* Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftDigitalAnalyticsPagesUITests/Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		916B62787164EF5EBB43ED4E /* Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftDigitalAnalyticsPagesTests/Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AC0C9C12F71655C6448766C4 /* Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftDigitalAnalyticsPagesTests/Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig"; sourceTree = "<group>"; };
-		E74F01D427CF0945AAA21369 /* Pods-SwiftDigitalAnalyticsPages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPages.release.xcconfig"; path = "Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages.release.xcconfig"; sourceTree = "<group>"; };
+		70EAD2E644CD49BCA064FDD3 /* Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftDigitalAnalyticsPagesUITests/Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93F41221B732B72D8F91BC9F /* Pods_SwiftDigitalAnalyticsPagesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDigitalAnalyticsPagesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65AE032EFCC05A797C41EEC /* Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftDigitalAnalyticsPagesTests/Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC9392EB09F63BCDAD0142EB /* Pods_SwiftDigitalAnalyticsPagesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDigitalAnalyticsPagesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16FC044D65584445DEF1B03 /* Pods-SwiftDigitalAnalyticsPages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDigitalAnalyticsPages.release.xcconfig"; path = "Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				634F8ED11BE9B0C500B90096 /* libz.tbd in Frameworks */,
 				1E0C6C891C73DBF8003603EB /* CoreTelephony.framework in Frameworks */,
 				634F8ECF1BE9B09C00B90096 /* SystemConfiguration.framework in Frameworks */,
-				2EC4F94ED76A03A5257F68CE /* Pods_SwiftDigitalAnalyticsPages.framework in Frameworks */,
+				5BCB14BCF509AFA584CF8E3E /* Pods_SwiftDigitalAnalyticsPages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14F3A17521BCF4DAFA7BCB4 /* Pods_SwiftDigitalAnalyticsPagesTests.framework in Frameworks */,
+				B64649E44016316F8E9028DF /* Pods_SwiftDigitalAnalyticsPagesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,23 +96,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6CC5AF1DB288252FE0E222F /* Pods_SwiftDigitalAnalyticsPagesUITests.framework in Frameworks */,
+				8F1AE989221F47D76C73BFD9 /* Pods_SwiftDigitalAnalyticsPagesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C8A969ED5E4C5A4243310CE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7047417780C909F38BD0E18E /* Pods_SwiftDigitalAnalyticsPages.framework */,
-				50C74B895CEA4451FFADE79F /* Pods_SwiftDigitalAnalyticsPagesTests.framework */,
-				277D735FE7077233641B6449 /* Pods_SwiftDigitalAnalyticsPagesUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		6315AB691BE8D20800B38D21 = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +112,7 @@
 				6315AB981BE8D20800B38D21 /* SwiftDigitalAnalyticsPagesUITests */,
 				6315AB731BE8D20800B38D21 /* Products */,
 				F8CE7A7B7D69244F703E6CF1 /* Pods */,
-				3C8A969ED5E4C5A4243310CE /* Frameworks */,
+				E6A3C49F0332AEFF1C2436E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,15 +171,25 @@
 			path = SwiftDigitalAnalyticsPages/DigitalAnalyticsFrameworks;
 			sourceTree = "<group>";
 		};
+		E6A3C49F0332AEFF1C2436E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6160D7126FE494F2F966C01F /* Pods_SwiftDigitalAnalyticsPages.framework */,
+				DC9392EB09F63BCDAD0142EB /* Pods_SwiftDigitalAnalyticsPagesTests.framework */,
+				93F41221B732B72D8F91BC9F /* Pods_SwiftDigitalAnalyticsPagesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F8CE7A7B7D69244F703E6CF1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1DF43F546853BA89144A1FF0 /* Pods-SwiftDigitalAnalyticsPages.debug.xcconfig */,
-				E74F01D427CF0945AAA21369 /* Pods-SwiftDigitalAnalyticsPages.release.xcconfig */,
-				916B62787164EF5EBB43ED4E /* Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig */,
-				AC0C9C12F71655C6448766C4 /* Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig */,
-				76ED3335554E1366F65EC8C1 /* Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig */,
-				0CF259A0274B1A102D6FDAF6 /* Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig */,
+				3BE192BA30A1DC50BF79D8CC /* Pods-SwiftDigitalAnalyticsPages.debug.xcconfig */,
+				E16FC044D65584445DEF1B03 /* Pods-SwiftDigitalAnalyticsPages.release.xcconfig */,
+				24BF3722546B22ED36E54088 /* Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig */,
+				B65AE032EFCC05A797C41EEC /* Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig */,
+				540F596FA37665321BE73511 /* Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig */,
+				70EAD2E644CD49BCA064FDD3 /* Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -211,13 +211,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6315AB9E1BE8D20800B38D21 /* Build configuration list for PBXNativeTarget "SwiftDigitalAnalyticsPages" */;
 			buildPhases = (
-				EA2B013A52416C6C51894650 /* [CP] Check Pods Manifest.lock */,
+				770EADC1A574937B8CED1537 /* [CP] Check Pods Manifest.lock */,
 				6315AB6E1BE8D20800B38D21 /* Sources */,
 				6315AB6F1BE8D20800B38D21 /* Frameworks */,
 				6315AB701BE8D20800B38D21 /* Resources */,
 				668583341FD25EB40078E71D /* Headers */,
-				70219622112405BE54E20F40 /* [CP] Embed Pods Frameworks */,
-				3D1B05C6A15E0437A58CEAE8 /* [CP] Copy Pods Resources */,
+				5042F0624A59B9374209DAA0 /* [CP] Embed Pods Frameworks */,
+				97DAE45F1F89FF51C5A42315 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6315ABA11BE8D20800B38D21 /* Build configuration list for PBXNativeTarget "SwiftDigitalAnalyticsPagesTests" */;
 			buildPhases = (
-				0B99D0BB95CD30078AE0A986 /* [CP] Check Pods Manifest.lock */,
+				14BAE5C0382A6D28C0D53A9F /* [CP] Check Pods Manifest.lock */,
 				6315AB861BE8D20800B38D21 /* Sources */,
 				6315AB871BE8D20800B38D21 /* Frameworks */,
 				6315AB881BE8D20800B38D21 /* Resources */,
@@ -251,7 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6315ABA41BE8D20800B38D21 /* Build configuration list for PBXNativeTarget "SwiftDigitalAnalyticsPagesUITests" */;
 			buildPhases = (
-				F4B63B66EFC68662DB318CE6 /* [CP] Check Pods Manifest.lock */,
+				CF04C2CA3BC020B2D42CB122 /* [CP] Check Pods Manifest.lock */,
 				6315AB911BE8D20800B38D21 /* Sources */,
 				6315AB921BE8D20800B38D21 /* Frameworks */,
 				6315AB931BE8D20800B38D21 /* Resources */,
@@ -278,15 +278,18 @@
 				TargetAttributes = {
 					6315AB711BE8D20800B38D21 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QXQ67VKX2B;
 						LastSwiftMigration = 1310;
 					};
 					6315AB891BE8D20800B38D21 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QXQ67VKX2B;
 						LastSwiftMigration = 1310;
 						TestTargetID = 6315AB711BE8D20800B38D21;
 					};
 					6315AB941BE8D20800B38D21 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QXQ67VKX2B;
 						LastSwiftMigration = 1310;
 						TestTargetID = 6315AB711BE8D20800B38D21;
 					};
@@ -340,7 +343,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B99D0BB95CD30078AE0A986 /* [CP] Check Pods Manifest.lock */ = {
+		14BAE5C0382A6D28C0D53A9F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,27 +365,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3D1B05C6A15E0437A58CEAE8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages-resources.sh",
-				"${PODS_ROOT}/DigitalAnalytics/SDKs/iOS/Release/DAMod.bundle",
-				"${PODS_ROOT}/EOCore/SDKs/iOS/Release/EOCoreSettings.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DAMod.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EOCoreSettings.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		70219622112405BE54E20F40 /* [CP] Embed Pods Frameworks */ = {
+		5042F0624A59B9374209DAA0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,7 +385,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EA2B013A52416C6C51894650 /* [CP] Check Pods Manifest.lock */ = {
+		770EADC1A574937B8CED1537 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,7 +407,27 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F4B63B66EFC68662DB318CE6 /* [CP] Check Pods Manifest.lock */ = {
+		97DAE45F1F89FF51C5A42315 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages-resources.sh",
+				"${PODS_ROOT}/DigitalAnalyticsDebug/SDKs/iOS/Debug/DAMod.bundle",
+				"${PODS_ROOT}/EOCoreDebug/SDKs/iOS/Debug/EOCoreSettings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DAMod.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EOCoreSettings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftDigitalAnalyticsPages/Pods-SwiftDigitalAnalyticsPages-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF04C2CA3BC020B2D42CB122 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -619,14 +622,18 @@
 		};
 		6315AB9F1BE8D20800B38D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DF43F546853BA89144A1FF0 /* Pods-SwiftDigitalAnalyticsPages.debug.xcconfig */;
+			baseConfigurationReference = 3BE192BA30A1DC50BF79D8CC /* Pods-SwiftDigitalAnalyticsPages.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPages/Info.plist;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ACO.SwiftDigitalAnalyticsPages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -636,14 +643,18 @@
 		};
 		6315ABA01BE8D20800B38D21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E74F01D427CF0945AAA21369 /* Pods-SwiftDigitalAnalyticsPages.release.xcconfig */;
+			baseConfigurationReference = E16FC044D65584445DEF1B03 /* Pods-SwiftDigitalAnalyticsPages.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPages/Info.plist;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ACO.SwiftDigitalAnalyticsPages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -653,9 +664,10 @@
 		};
 		6315ABA21BE8D20800B38D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 916B62787164EF5EBB43ED4E /* Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig */;
+			baseConfigurationReference = 24BF3722546B22ED36E54088 /* Pods-SwiftDigitalAnalyticsPagesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPagesTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = ACO.SwiftDigitalAnalyticsPagesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -667,9 +679,10 @@
 		};
 		6315ABA31BE8D20800B38D21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC0C9C12F71655C6448766C4 /* Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig */;
+			baseConfigurationReference = B65AE032EFCC05A797C41EEC /* Pods-SwiftDigitalAnalyticsPagesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPagesTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = ACO.SwiftDigitalAnalyticsPagesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -681,8 +694,9 @@
 		};
 		6315ABA51BE8D20800B38D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76ED3335554E1366F65EC8C1 /* Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig */;
+			baseConfigurationReference = 540F596FA37665321BE73511 /* Pods-SwiftDigitalAnalyticsPagesUITests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPagesUITests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = ACO.SwiftDigitalAnalyticsPagesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -695,8 +709,9 @@
 		};
 		6315ABA61BE8D20800B38D21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CF259A0274B1A102D6FDAF6 /* Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig */;
+			baseConfigurationReference = 70EAD2E644CD49BCA064FDD3 /* Pods-SwiftDigitalAnalyticsPagesUITests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = SwiftDigitalAnalyticsPagesUITests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = ACO.SwiftDigitalAnalyticsPagesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
